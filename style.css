@@ -63,6 +63,12 @@ body {
     position: relative;
 }
 
+.menu-icon:hover {
+    opacity: 0.7;
+    transition-property: opacity;
+    transition-duration: 0.4s;
+}
+
 .menu-icon::after {
     content: '';
     position: absolute;
@@ -100,6 +106,16 @@ body {
     letter-spacing: -0.01em;
     color: #1b1c21;
     cursor: pointer;
+}
+
+.menu-list__item {
+    max-width: 320px;
+}
+
+.menu-list__item:hover {
+    opacity: 0.7;
+    transition-property: opacity;
+    transition-duration: 0.4s;
 }
 
 .menu-list__item--active {
@@ -255,6 +271,12 @@ body {
     margin: 0 0 35px 0;
 }
 
+.footer-menu__item:hover {
+    opacity: 0.7;
+    transition-property: opacity;
+    transition-duration: 0.4s;
+}
+
 .footer-menu__link,
 .language-switcher__button {
     text-decoration: none;
@@ -287,4 +309,10 @@ body {
 
 .language-switcher__item--active .language-switcher__button {
     color: #7e7e82;
+}
+
+.language-switcher__button:hover {
+    color: #41F6D7;
+    transition-property: color;
+    transition-duration: 0.4s;
 }
