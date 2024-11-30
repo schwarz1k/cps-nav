@@ -207,7 +207,7 @@ body {
 
 .menu-user__item--call::after {
     display: block;
-    background-image: url('/img/menu/menu-call.svg');
+    background-image: url('img/menu/menu-call.svg');
 }
 
 .menu-user__item--send::after {
